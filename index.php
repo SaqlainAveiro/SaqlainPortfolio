@@ -188,7 +188,7 @@ if(isset($_POST['submit'])){
 
                         <p class="Contact-Header">Details:</p>
 
-                        <form action="mail.php" method="POST">
+                        <form action="index.php" method="POST">
 
                             <div class="fields">
 
