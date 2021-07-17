@@ -172,7 +172,10 @@
 
                         <p class="Contact-Header">Details:</p>
 
-                        <form action="index.php" method="POST">
+                        <form action="https://formsubmit.co/saqlainahs@gmail.com" method="POST">
+
+                            <input type="hidden" name="_next" value="https://saqlainportfolio.herokuapp.com">
+                            <input type="hidden" name="_subject" value="New e-mail from your portfolio!">
 
                             <div class="fields">
 
@@ -203,12 +206,10 @@
                 </div>
 
                 <!--<ul class="Link_Class_Ul" style="font-size: large;">
-                    <li>E-mail : <a href="https://saqlainahs@gmail.com">saqlainahs@gmail.com</a></li>
-                    <li>Edu-mail : <a href="https://180104129@aust.edu">180104129@aust.edu</a></li>
                     <li>Facebook : <a href="https://www.facebook.com/saqlain.is.dead/">Saqlain Habib</a></li>
                     <li>Codeforces : <a href="https://codeforces.com/profile/Saqlain_-">Saqlain_-</a></li>
                     <li>Toph : <a href="https://toph.co/u/Saqlain7">Saqlain7</a></li>
-                    <li>Linked In : <a href="https://www.linkedin.com/in/saqlain-habib-887861178/">Saqlain Habib</a></li>
+                    <li>LinkedIn : <a href="https://www.linkedin.com/in/saqlain-habib-887861178/">Saqlain Habib</a></li>
                     <li>GitHub : <a href="https://github.com/SaqlainAveiro">Saqlain Aveiro</a></li>
                     </ul>
                 -->  
