@@ -6,12 +6,12 @@ if(isset($_POST['submit'])){
     $subject = $_POST['Subject'];
     $message = $_POST['Message'];
 
-    $to = "saqlainahs@gmail.com";
-    $headers = "You have an email from your portfolio!";
-    $txt = "Name: ".$name."\nFrom: ".$mailFrom."\nSubject: ".$subject."\nMessage: \n".$message."\n\n";
+    $mailTo = "saqlainahs@gmail.com";
+    $header = "You have an email from your portfolio!";
+    $text = "Name: ".$name."\nFrom: ".$mailFrom."\nSubject: ".$subject."\nMessage: \n".$message."\n\n";
     
 
-    mail($to, $subject, $txt, $headers);
+    mail($mailTo, $subject, $text, $header);
 
     header("Location: index.php");
 }
